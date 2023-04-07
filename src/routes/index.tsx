@@ -1,12 +1,10 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 
+import { Input } from '~/components/input/input';
 
 export default component$(() => {
-  return (
-      <div class="section bright">
-      </div>
-  );
+  return <Input />;
 });
 
 export const head: DocumentHead = {
